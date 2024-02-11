@@ -6,12 +6,20 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   <link rel="apple-touch-icon image_src" href="/favicon.png">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-  <title>RJ blog</title>
+  <title>RJ博客</title>
 </head>
 
 <body>
-  <h1>RJ's technical blog</h1>
-  <a href="https://pages.github.com/">Power by GitHub Pages</a>
+  <h1>RJ 的技术博客</h1>
+  <script>
+    const host = location.host.toLowerCase()
+    const githubUrl = 'https://github.com/rj-hwang/rj-hwang.github.io/blob/master/README.md'
+    const giteeUrl = 'https://gitee.com/rj-hwang/rj-hwang.gitee.io/blob/master/README.md'
+    const toUrl = host.includes('github') ? githubUrl
+                : host.includes('gitee') ? giteeUrl
+                : ''
+    if (toUrl) window.location.replace(toUrl)
+  </script>
 </body>
 
 </html>
