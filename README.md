@@ -2,6 +2,7 @@
 
 ## 简书
 
+- 2020-09-08 [联想 M73 安装黑苹果](<jianshu-blog/2020-09-08-联想M73安装黑苹果.md>)
 - 2020-09-07 [WIFI 天线知识](<jianshu-blog/2020-09-07-WIFI天线知识.md>)
 - 2020-09-03 [IntelliJ IDEA Ultimate 试用期重置](<jianshu-blog/2020-09-03-IntelliJ IDEA Ultimate 试用期重置.md>)
 - 2020-08-24 [绿色版 Chrome 的制作](<jianshu-blog/2020-08-24-绿色版Chrome的制作.md>)
